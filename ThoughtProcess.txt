@@ -1,0 +1,14 @@
+2 options...
+
+1 - use external API to relay data
+PROS - quicker to implement, search function already built,  more data 
+CONS - less control over data, could take longer to load data from another source
+
+
+2 - download data, add to db, expose via API
+PROS - elasticsearch likely quicker than pinging another API
+CONS - takes a while to download, transform, and load data into db
+
+We will go with option 1 because both will satisfy requirements as listed in 
+backend prompt, but option 1 will take significantly less time. 
+
